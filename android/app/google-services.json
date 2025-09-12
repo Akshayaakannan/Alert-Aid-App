@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "882601206900",
+    "project_id": "alert-aid-app",
+    "storage_bucket": "alert-aid-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882601206900:android:a5e4900f3399c011275d21",
+        "android_client_info": {
+          "package_name": "com.example.disaster_management"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-iwnDLxsyLklDl2XI8LsWiA81X6QXu9g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
