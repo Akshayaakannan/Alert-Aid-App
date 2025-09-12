@@ -4,10 +4,15 @@
 
 list(APPEND FLUTTER_PLUGIN_LIST
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   file_selector_linux
   url_launcher_linux
 >>>>>>> Knowledge-Panel
+=======
+  file_selector_linux
+  url_launcher_linux
+>>>>>>> News-Feed
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST

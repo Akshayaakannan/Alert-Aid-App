@@ -12,10 +12,14 @@ subprojects {
 subprojects {
     project.evaluationDependsOn(":app")
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 } 
 >>>>>>> Knowledge-Panel
+=======
+} 
+>>>>>>> News-Feed
 
 tasks.register("clean", Delete) {
     delete rootProject.buildDir

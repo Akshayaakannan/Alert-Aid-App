@@ -1,10 +1,13 @@
 import 'package:disaster_management/firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import 'package:flutter/material.dart';
 import 'screens/onboarding/splash_screen.dart';
 import 'package:flutter/services.dart';
 =======
+=======
+>>>>>>> News-Feed
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'screens/onboarding/splash_screen.dart';
@@ -19,7 +22,10 @@ import 'screens/home/contacts.dart';
 import 'screens/home/knowledge_panel.dart';
 import 'screens/home/privacy_policy.dart';
 import 'screens/auth/logout.dart';
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
+=======
+>>>>>>> News-Feed
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -27,6 +33,7 @@ void main() async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   SystemChrome.setSystemUIOverlayStyle(
     const SystemUiOverlayStyle(
@@ -50,6 +57,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false, //this will remove the debug banner
       home: SplashScreen(),
 =======
+=======
+>>>>>>> News-Feed
   FirebaseMessaging messaging = FirebaseMessaging.instance;
 
   NotificationSettings settings = await messaging.requestPermission();
@@ -116,7 +125,10 @@ class _MyAppState extends State<MyApp> {
         '/profile': (context) => const ProfilePage(),
         '/logout': (context) => const LogoutScreen(),
       },
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
+=======
+>>>>>>> News-Feed
     );
   }
 }

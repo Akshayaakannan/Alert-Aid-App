@@ -5,9 +5,12 @@
 list(APPEND FLUTTER_PLUGIN_LIST
   cloud_firestore
 <<<<<<< HEAD
+<<<<<<< HEAD
   firebase_auth
   firebase_core
 =======
+=======
+>>>>>>> News-Feed
   file_selector_windows
   firebase_auth
   firebase_core
@@ -15,7 +18,10 @@ list(APPEND FLUTTER_PLUGIN_LIST
   geolocator_windows
   permission_handler_windows
   url_launcher_windows
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
+=======
+>>>>>>> News-Feed
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST

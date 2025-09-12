@@ -7,6 +7,7 @@ import Foundation
 
 import cloud_firestore
 <<<<<<< HEAD
+<<<<<<< HEAD
 import firebase_auth
 import firebase_core
 import google_sign_in_ios
@@ -17,6 +18,8 @@ func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
   FLTFirebaseCorePlugin.register(with: registry.registrar(forPlugin: "FLTFirebaseCorePlugin"))
   FLTGoogleSignInPlugin.register(with: registry.registrar(forPlugin: "FLTGoogleSignInPlugin"))
 =======
+=======
+>>>>>>> News-Feed
 import file_selector_macos
 import firebase_auth
 import firebase_core
@@ -36,5 +39,8 @@ func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
   GeolocatorPlugin.register(with: registry.registrar(forPlugin: "GeolocatorPlugin"))
   FLTGoogleSignInPlugin.register(with: registry.registrar(forPlugin: "FLTGoogleSignInPlugin"))
   UrlLauncherPlugin.register(with: registry.registrar(forPlugin: "UrlLauncherPlugin"))
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
+=======
+>>>>>>> News-Feed
 }
