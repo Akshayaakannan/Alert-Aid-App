@@ -6,6 +6,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
@@ -15,6 +16,8 @@ packages:
 >>>>>>> Report-Incident-&-Real-Time-Alerts
 =======
 >>>>>>> Helpline
+=======
+>>>>>>> Profile-Settings
   _flutterfire_internals:
     dependency: transitive
     description:
@@ -35,6 +38,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -44,6 +48,8 @@ packages:
 >>>>>>> Report-Incident-&-Real-Time-Alerts
 =======
 >>>>>>> Helpline
+=======
+>>>>>>> Profile-Settings
   async:
     dependency: transitive
     description:
@@ -81,6 +87,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
@@ -90,6 +97,8 @@ packages:
 >>>>>>> Report-Incident-&-Real-Time-Alerts
 =======
 >>>>>>> Helpline
+=======
+>>>>>>> Profile-Settings
   cloud_firestore:
     dependency: "direct main"
     description:
@@ -118,6 +127,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -127,6 +137,8 @@ packages:
 >>>>>>> Report-Incident-&-Real-Time-Alerts
 =======
 >>>>>>> Helpline
+=======
+>>>>>>> Profile-Settings
   collection:
     dependency: transitive
     description:
@@ -140,6 +152,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
@@ -149,6 +162,8 @@ packages:
 >>>>>>> Report-Incident-&-Real-Time-Alerts
 =======
 >>>>>>> Helpline
+=======
+>>>>>>> Profile-Settings
   cross_file:
     dependency: transitive
     description:
@@ -169,6 +184,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -178,6 +194,8 @@ packages:
 >>>>>>> Report-Incident-&-Real-Time-Alerts
 =======
 >>>>>>> Helpline
+=======
+>>>>>>> Profile-Settings
   cupertino_icons:
     dependency: "direct main"
     description:
@@ -191,6 +209,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
@@ -200,6 +219,8 @@ packages:
 >>>>>>> Report-Incident-&-Real-Time-Alerts
 =======
 >>>>>>> Helpline
+=======
+>>>>>>> Profile-Settings
   dialog_flowtter:
     dependency: "direct main"
     description:
@@ -220,6 +241,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -229,6 +251,8 @@ packages:
 >>>>>>> Report-Incident-&-Real-Time-Alerts
 =======
 >>>>>>> Helpline
+=======
+>>>>>>> Profile-Settings
   fake_async:
     dependency: transitive
     description:
@@ -242,6 +266,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
@@ -251,6 +276,8 @@ packages:
 >>>>>>> Report-Incident-&-Real-Time-Alerts
 =======
 >>>>>>> Helpline
+=======
+>>>>>>> Profile-Settings
   file_selector_linux:
     dependency: transitive
     description:
@@ -311,6 +338,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -320,6 +348,8 @@ packages:
 >>>>>>> Report-Incident-&-Real-Time-Alerts
 =======
 >>>>>>> Helpline
+=======
+>>>>>>> Profile-Settings
   firebase_core:
     dependency: "direct main"
     description:
@@ -349,6 +379,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
@@ -358,6 +389,8 @@ packages:
 >>>>>>> Report-Incident-&-Real-Time-Alerts
 =======
 >>>>>>> Helpline
+=======
+>>>>>>> Profile-Settings
   firebase_messaging:
     dependency: "direct main"
     description:
@@ -418,6 +451,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -427,6 +461,8 @@ packages:
 >>>>>>> Report-Incident-&-Real-Time-Alerts
 =======
 >>>>>>> Helpline
+=======
+>>>>>>> Profile-Settings
   flutter:
     dependency: "direct main"
     description: flutter
@@ -445,6 +481,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
@@ -454,6 +491,8 @@ packages:
 >>>>>>> Report-Incident-&-Real-Time-Alerts
 =======
 >>>>>>> Helpline
+=======
+>>>>>>> Profile-Settings
   flutter_localizations:
     dependency: "direct main"
     description: flutter
@@ -479,6 +518,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -488,6 +528,8 @@ packages:
 >>>>>>> Report-Incident-&-Real-Time-Alerts
 =======
 >>>>>>> Helpline
+=======
+>>>>>>> Profile-Settings
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -511,6 +553,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
@@ -520,6 +563,8 @@ packages:
 >>>>>>> Report-Incident-&-Real-Time-Alerts
 =======
 >>>>>>> Helpline
+=======
+>>>>>>> Profile-Settings
   fluttertoast:
     dependency: "direct main"
     description:
@@ -740,6 +785,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -749,6 +795,8 @@ packages:
 >>>>>>> Report-Incident-&-Real-Time-Alerts
 =======
 >>>>>>> Helpline
+=======
+>>>>>>> Profile-Settings
   leak_tracker:
     dependency: transitive
     description:
@@ -810,6 +858,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
@@ -819,6 +868,8 @@ packages:
 >>>>>>> Report-Incident-&-Real-Time-Alerts
 =======
 >>>>>>> Helpline
+=======
+>>>>>>> Profile-Settings
   mime:
     dependency: transitive
     description:
@@ -839,6 +890,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -848,6 +900,8 @@ packages:
 >>>>>>> Report-Incident-&-Real-Time-Alerts
 =======
 >>>>>>> Helpline
+=======
+>>>>>>> Profile-Settings
   path:
     dependency: transitive
     description:
@@ -861,6 +915,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
@@ -870,6 +925,8 @@ packages:
 >>>>>>> Report-Incident-&-Real-Time-Alerts
 =======
 >>>>>>> Helpline
+=======
+>>>>>>> Profile-Settings
   permission_handler:
     dependency: "direct main"
     description:
@@ -922,6 +979,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -931,6 +989,8 @@ packages:
 >>>>>>> Report-Incident-&-Real-Time-Alerts
 =======
 >>>>>>> Helpline
+=======
+>>>>>>> Profile-Settings
   plugin_platform_interface:
     dependency: transitive
     description:
@@ -944,6 +1004,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
@@ -953,6 +1014,8 @@ packages:
 >>>>>>> Report-Incident-&-Real-Time-Alerts
 =======
 >>>>>>> Helpline
+=======
+>>>>>>> Profile-Settings
   provider:
     dependency: "direct main"
     description:
@@ -961,6 +1024,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.1.5"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -974,6 +1038,8 @@ packages:
 >>>>>>> Report-Incident-&-Real-Time-Alerts
 =======
 >>>>>>> Helpline
+=======
+>>>>>>> Profile-Settings
   sky_engine:
     dependency: transitive
     description: flutter
@@ -992,6 +1058,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
@@ -1001,6 +1068,8 @@ packages:
 >>>>>>> Report-Incident-&-Real-Time-Alerts
 =======
 >>>>>>> Helpline
+=======
+>>>>>>> Profile-Settings
   sprintf:
     dependency: transitive
     description:
@@ -1009,6 +1078,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "7.0.0"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1022,6 +1092,8 @@ packages:
 >>>>>>> Report-Incident-&-Real-Time-Alerts
 =======
 >>>>>>> Helpline
+=======
+>>>>>>> Profile-Settings
   stack_trace:
     dependency: transitive
     description:
@@ -1067,6 +1139,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
@@ -1076,6 +1149,8 @@ packages:
 >>>>>>> Report-Incident-&-Real-Time-Alerts
 =======
 >>>>>>> Helpline
+=======
+>>>>>>> Profile-Settings
   typed_data:
     dependency: transitive
     description:
@@ -1160,6 +1235,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -1169,6 +1245,8 @@ packages:
 >>>>>>> Report-Incident-&-Real-Time-Alerts
 =======
 >>>>>>> Helpline
+=======
+>>>>>>> Profile-Settings
   vector_math:
     dependency: transitive
     description:
@@ -1200,6 +1278,7 @@ sdks:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   flutter: ">=3.22.0"
 =======
   flutter: ">=3.27.0"
@@ -1216,3 +1295,6 @@ sdks:
 =======
   flutter: ">=3.27.0"
 >>>>>>> Helpline
+=======
+  flutter: ">=3.27.0"
+>>>>>>> Profile-Settings

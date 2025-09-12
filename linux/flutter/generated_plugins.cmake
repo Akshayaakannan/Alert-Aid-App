@@ -8,6 +8,7 @@ list(APPEND FLUTTER_PLUGIN_LIST
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   file_selector_linux
   url_launcher_linux
@@ -28,6 +29,10 @@ list(APPEND FLUTTER_PLUGIN_LIST
   file_selector_linux
   url_launcher_linux
 >>>>>>> Helpline
+=======
+  file_selector_linux
+  url_launcher_linux
+>>>>>>> Profile-Settings
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST

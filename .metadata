@@ -20,6 +20,7 @@ migration:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - platform: android
       create_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
       base_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
@@ -63,6 +64,11 @@ migration:
       create_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
       base_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
 >>>>>>> Helpline
+=======
+    - platform: web
+      create_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
+      base_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
+>>>>>>> Profile-Settings
 
   # User provided section
 
