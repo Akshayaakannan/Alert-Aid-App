@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'dart:async'; // Import the timer package
-import '../select_language_screen.dart'; // Import the next page after splash
+import 'dart:async';
+import '../select_language_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -29,15 +29,38 @@ class _SplashScreenState extends State<SplashScreen> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: SafeArea(
-        // Added SafeArea to prevent UI overlap
         child: Column(
           children: [
             Expanded(
               child: Center(
-                child: Image.asset(
-                  'assets/gallery.png',
-                  width: 133,
-                  height: 133,
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Image.asset(
+                      './assets/Logo.png',
+                      width: 180,
+                      height: 180,
+                    ),
+                    RichText(
+                      text: TextSpan(
+                        style: TextStyle(
+                          fontSize: 42,
+                          fontWeight: FontWeight.bold,
+                        ),
+                        children: [
+                          TextSpan(
+                            text: 'alert',
+                            style: TextStyle(
+                                color: const Color.fromARGB(255, 32, 44, 54)),
+                          ),
+                          TextSpan(
+                            text: 'aid',
+                            style: TextStyle(color: Colors.red),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ),

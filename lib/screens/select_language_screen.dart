@@ -1,12 +1,7 @@
-<<<<<<< HEAD
-import 'package:flutter/material.dart';
-import 'auth/login_methods_screen.dart'; // Import the LoginMethodsScreen file
-=======
 import 'package:disaster_management/main.dart';
 import 'package:flutter/material.dart';
 import 'auth/login_methods_screen.dart';
 import 'package:fluttertoast/fluttertoast.dart';
->>>>>>> Helpline
 
 class SelectLanguageScreen extends StatefulWidget {
   const SelectLanguageScreen({super.key});
@@ -16,11 +11,8 @@ class SelectLanguageScreen extends StatefulWidget {
 }
 
 class _SelectLanguageScreenState extends State<SelectLanguageScreen> {
-<<<<<<< HEAD
-=======
   String? selectedLanguage;
 
->>>>>>> Helpline
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,20 +24,6 @@ class _SelectLanguageScreenState extends State<SelectLanguageScreen> {
               alignment: Alignment.center,
               children: [
                 Positioned(
-<<<<<<< HEAD
-                  child: Image.asset(
-                    'assets/Polygon 6.png',
-                    width: 390,
-                    height: 400.39,
-                    fit: BoxFit.cover,
-                  ),
-                ),
-                Image.asset(
-                  'assets/gallery.png',
-                  width: 56,
-                  height: 56,
-                ),
-=======
                   child: ClipPath(
                     clipper: _InlinePolygonClipper(),
                     child: Image.asset(
@@ -56,7 +34,6 @@ class _SelectLanguageScreenState extends State<SelectLanguageScreen> {
                     ),
                   ),
                 ),
->>>>>>> Helpline
               ],
             ),
 
@@ -104,16 +81,6 @@ class _SelectLanguageScreenState extends State<SelectLanguageScreen> {
 
   // Language Button Function
   Widget _languageButton(String language) {
-<<<<<<< HEAD
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 8),
-      child: ElevatedButton(
-        onPressed: () {},
-        style: ElevatedButton.styleFrom(
-          backgroundColor: const Color(0xFFD9D9D9),
-          foregroundColor: Colors.black,
-          minimumSize: const Size(282, 55),
-=======
     final isSelected = selectedLanguage == language;
 
     // Convert button label to locale
@@ -161,32 +128,22 @@ class _SelectLanguageScreenState extends State<SelectLanguageScreen> {
             color: Color(0xFF213555),
             width: 2,
           ),
->>>>>>> Helpline
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(10),
           ),
         ),
         child: Text(
           language,
-<<<<<<< HEAD
-          style: const TextStyle(
-            fontSize: 20,
-            fontWeight: FontWeight.w700,
-            color: Color(0xFF747474),
-=======
           style: TextStyle(
             fontSize: 20,
             fontWeight: FontWeight.w700,
             color: isSelected ? Colors.white : const Color(0xFF213555),
->>>>>>> Helpline
           ),
         ),
       ),
     );
   }
 }
-<<<<<<< HEAD
-=======
 
 // Move _InlinePolygonClipper to top-level
 class _InlinePolygonClipper extends CustomClipper<Path> {
@@ -211,4 +168,3 @@ class _InlinePolygonClipper extends CustomClipper<Path> {
   @override
   bool shouldReclip(covariant CustomClipper<Path> oldClipper) => false;
 }
->>>>>>> Helpline

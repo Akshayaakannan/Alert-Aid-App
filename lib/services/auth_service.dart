@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -8,16 +9,23 @@ class AuthService {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
   final FirebaseAuth _auth = FirebaseAuth.instance;
 
-//a method verify the email
-  // Future<void> sendEmailVerificationLink() async {
-  //   try {
-  //     await _auth.currentUser?.sendEmailVerification();
-  //   } catch (e) {
-  //     print(e.toString())
-  //   }
-  // }
+  // Listen for token refresh and update Firestore
+  void startTokenRefreshListener(String userId) {
+    FirebaseMessaging.instance.onTokenRefresh.listen((newToken) async {
+      await _firestore.collection('users').doc(userId).set({
+        'fcmToken': newToken,
+      }, SetOptions(merge: true));
+    });
+  }
 
-//send password reset link
+  // Save current FCM token
+  Future<void> saveUserToken(String userId) async {
+    String? token = await FirebaseMessaging.instance.getToken();
+    await _firestore.collection('users').doc(userId).set({
+      'fcmToken': token,
+    }, SetOptions(merge: true));
+  }
+
   Future<void> sendPasswordResetLink(String email) async {
     try {
       await _auth.sendPasswordResetEmail(email: email);
@@ -26,7 +34,6 @@ class AuthService {
     }
   }
 
-  // Sign up method
   Future<void> signup({
     required String firstName,
     required String lastName,
@@ -34,14 +41,11 @@ class AuthService {
     required String password,
   }) async {
     try {
-      // Create user in Firebase Authentication
-      UserCredential userCredential = await FirebaseAuth.instance
+      UserCredential userCredential = await _auth
           .createUserWithEmailAndPassword(email: email, password: password);
 
-      // Get the created user
       User? user = userCredential.user;
 
-      // Store user details in Firestore
       if (user != null) {
         await _firestore.collection('users').doc(user.uid).set({
           'firstName': firstName,
@@ -49,6 +53,9 @@ class AuthService {
           'email': email,
           'createdAt': Timestamp.now(),
         });
+
+        await saveUserToken(user.uid); // Save initial token
+        startTokenRefreshListener(user.uid); // Listen for token refresh
 
         Fluttertoast.showToast(
           msg: "Sign up successful!",
@@ -86,79 +93,67 @@ class AuthService {
     }
   }
 
-  // Sign in method
-  Future<void> signin({
+  Future<User?> signin({
     required String email,
     required String password,
   }) async {
     try {
-      // Sign in the user with email and password
-      UserCredential userCredential = await FirebaseAuth.instance
-          .signInWithEmailAndPassword(email: email, password: password);
+      UserCredential userCredential = await _auth.signInWithEmailAndPassword(
+          email: email, password: password);
 
-      // Get the signed-in user
       User? user = userCredential.user;
 
       if (user != null) {
         Fluttertoast.showToast(
-          msg: "Sign in successful!",
-          toastLength: Toast.LENGTH_LONG,
+          msg: 'successfully signed in with Google',
+          toastLength: Toast.LENGTH_SHORT,
           gravity: ToastGravity.BOTTOM,
           backgroundColor: Colors.green,
           textColor: Colors.white,
-          fontSize: 14.0,
+          fontSize: 16.0,
         );
-      } else {
-        Fluttertoast.showToast(
-          msg: "User sign-in failed. Please try again.",
-          toastLength: Toast.LENGTH_LONG,
-          gravity: ToastGravity.BOTTOM,
-          backgroundColor: Colors.red,
-          textColor: Colors.white,
-          fontSize: 14.0,
-        );
+        await saveUserToken(user.uid);
+        startTokenRefreshListener(user.uid);
       }
-    } on FirebaseAuthException catch (e) {
-      String message = '';
-      if (e.code == 'wrong-password') {
-        message = 'Incorrect password.';
-      } else if (e.code == 'user-not-found') {
-        message = 'No user found for that email.';
-      }
-      Fluttertoast.showToast(
-        msg: message,
-        toastLength: Toast.LENGTH_LONG,
-        gravity: ToastGravity.SNACKBAR,
-        backgroundColor: Colors.black,
-        textColor: Colors.white,
-        fontSize: 14.0,
-      );
-    }
-  }
 
-  Future<UserCredential?> loginWithGoogle() async {
-    try {
-      final googleUser = await GoogleSignIn().signIn();
-
-      final googleAuth = await googleUser?.authentication;
-      final cred = GoogleAuthProvider.credential(
-          idToken: googleAuth?.idToken, accessToken: googleAuth?.accessToken);
-
-      return await _auth.signInWithCredential(cred);
+      return user;
     } catch (e) {
-      Fluttertoast.showToast(
-        msg: "Google sign-in failed. Please try again.",
-        toastLength: Toast.LENGTH_LONG,
-        gravity: ToastGravity.BOTTOM,
-        backgroundColor: Colors.red,
-        textColor: Colors.white,
-        fontSize: 14.0,
-      );
+      print(e.toString());
       return null;
     }
   }
 
-  //login with facebook
+  Future<User?> loginWithGoogle() async {
+    try {
+      final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
+      if (googleUser == null) return null;
+
+      final GoogleSignInAuthentication googleAuth =
+          await googleUser.authentication;
+
+      final credential = GoogleAuthProvider.credential(
+        accessToken: googleAuth.accessToken,
+        idToken: googleAuth.idToken,
+      );
+
+      final UserCredential userCredential =
+          await _auth.signInWithCredential(credential);
+
+      User? user = userCredential.user;
+
+      if (user != null) {
+        await saveUserToken(user.uid);
+        startTokenRefreshListener(user.uid);
+      }
+
+      return user;
+    } catch (e) {
+      print(e.toString());
+      return null;
+    }
+  }
+
+  // Facebook login - update as needed (currently Google sign-in fallback)
   Future<UserCredential?> loginWithFaceBook() async {
     try {
       final googleUser = await GoogleSignIn().signIn();
@@ -167,10 +162,17 @@ class AuthService {
       final cred = GoogleAuthProvider.credential(
           idToken: googleAuth?.idToken, accessToken: googleAuth?.accessToken);
 
-      return await _auth.signInWithCredential(cred);
+      final UserCredential userCredential =
+          await _auth.signInWithCredential(cred);
+
+      // Save token & listen for refresh
+      await saveUserToken(userCredential.user!.uid);
+      startTokenRefreshListener(userCredential.user!.uid);
+
+      return userCredential;
     } catch (e) {
       Fluttertoast.showToast(
-        msg: "Google sign-in failed. Please try again.",
+        msg: "Facebook sign-in failed. Please try again.",
         toastLength: Toast.LENGTH_LONG,
         gravity: ToastGravity.BOTTOM,
         backgroundColor: Colors.red,
@@ -181,6 +183,7 @@ class AuthService {
     }
   }
 
+  // Twitter login - update as needed (currently Google sign-in fallback)
   Future<UserCredential?> loginWithTwitter() async {
     try {
       final googleUser = await GoogleSignIn().signIn();
@@ -189,10 +192,17 @@ class AuthService {
       final cred = GoogleAuthProvider.credential(
           idToken: googleAuth?.idToken, accessToken: googleAuth?.accessToken);
 
-      return await _auth.signInWithCredential(cred);
+      final UserCredential userCredential =
+          await _auth.signInWithCredential(cred);
+
+      // Save token & listen for refresh
+      await saveUserToken(userCredential.user!.uid);
+      startTokenRefreshListener(userCredential.user!.uid);
+
+      return userCredential;
     } catch (e) {
       Fluttertoast.showToast(
-        msg: "Google sign-in failed. Please try again.",
+        msg: "Twitter sign-in failed. Please try again.",
         toastLength: Toast.LENGTH_LONG,
         gravity: ToastGravity.BOTTOM,
         backgroundColor: Colors.red,

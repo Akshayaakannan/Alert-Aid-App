@@ -31,23 +31,6 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_vector_icons: ^2.0.0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> News-Feed
-=======
->>>>>>> Ai-Chat-Bot
-=======
->>>>>>> Report-Incident-&-Real-Time-Alerts
-=======
->>>>>>> Helpline
-=======
->>>>>>> Profile-Settings
   dialog_flowtter: 
   provider: ^6.0.5
   image_picker: ^0.8.7+4
@@ -62,92 +45,19 @@ dependencies:
     sdk: flutter
   intl: ^0.19.0
   font_awesome_flutter: ^10.5.0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> Knowledge-Panel
-=======
->>>>>>> News-Feed
-=======
->>>>>>> Ai-Chat-Bot
-=======
->>>>>>> Report-Incident-&-Real-Time-Alerts
-=======
->>>>>>> Helpline
-=======
->>>>>>> Profile-Settings
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  firebase_core: ^3.12.1
-=======
-=======
->>>>>>> News-Feed
-=======
->>>>>>> Ai-Chat-Bot
-=======
->>>>>>> Report-Incident-&-Real-Time-Alerts
-=======
->>>>>>> Helpline
-=======
->>>>>>> Profile-Settings
   firebase_auth: ^5.5.1
   fluttertoast: ^8.2.12
   cloud_firestore: ^5.6.5
   google_sign_in: ^6.2.1
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> Knowledge-Panel
-=======
->>>>>>> News-Feed
-=======
->>>>>>> Ai-Chat-Bot
-=======
->>>>>>> Report-Incident-&-Real-Time-Alerts
-=======
->>>>>>> Helpline
-=======
->>>>>>> Profile-Settings
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
   
->>>>>>> Knowledge-Panel
-=======
-  
->>>>>>> News-Feed
-=======
-  
->>>>>>> Ai-Chat-Bot
-=======
-  
->>>>>>> Report-Incident-&-Real-Time-Alerts
-=======
-  
->>>>>>> Helpline
-=======
-  
->>>>>>> Profile-Settings
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -166,30 +76,7 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
   generate: true
->>>>>>> Knowledge-Panel
-=======
-  generate: true
->>>>>>> News-Feed
-=======
-  generate: true
->>>>>>> Ai-Chat-Bot
-=======
-  generate: true
->>>>>>> Report-Incident-&-Real-Time-Alerts
-=======
-  generate: true
->>>>>>> Helpline
-=======
-  generate: true
->>>>>>> Profile-Settings
 
   # To add assets to your application, add an assets section, like this:
   assets:

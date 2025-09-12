@@ -3,36 +3,8 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
   file_selector_linux
   url_launcher_linux
->>>>>>> Knowledge-Panel
-=======
-  file_selector_linux
-  url_launcher_linux
->>>>>>> News-Feed
-=======
-  file_selector_linux
-  url_launcher_linux
->>>>>>> Ai-Chat-Bot
-=======
-  file_selector_linux
-  url_launcher_linux
->>>>>>> Report-Incident-&-Real-Time-Alerts
-=======
-  file_selector_linux
-  url_launcher_linux
->>>>>>> Helpline
-=======
-  file_selector_linux
-  url_launcher_linux
->>>>>>> Profile-Settings
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST

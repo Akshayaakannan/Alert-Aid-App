@@ -1,7 +1,10 @@
+import 'package:disaster_management/screens/navbar/home.dart';
 import 'package:disaster_management/services/auth_service.dart';
 import 'package:flutter/material.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'sign_up.dart';
 import 'sign_in.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class LoginMethodsScreen extends StatefulWidget {
   const LoginMethodsScreen({super.key});
@@ -12,60 +15,57 @@ class LoginMethodsScreen extends StatefulWidget {
 
 class _LoginMethodsScreenState extends State<LoginMethodsScreen> {
   final AuthService _authService = AuthService();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
       body: SafeArea(
         child: Column(
           children: [
             Stack(
               alignment: Alignment.center,
               children: [
-                Positioned(
+                ClipPath(
+                  clipper: _InlinePolygonClipper(),
                   child: Image.asset(
-                    'assets/Polygon 6.png',
+                    'assets/rescueteam.png',
                     width: 390,
                     height: 400.39,
                     fit: BoxFit.cover,
                   ),
                 ),
-                Image.asset(
-                  'assets/gallery.png',
-                  width: 56,
-                  height: 56,
-                ),
               ],
             ),
-
             const SizedBox(height: 20),
 
             // Title
-            const Text(
-              'Welcome!',
-              style: TextStyle(
+            Text(
+              AppLocalizations.of(context)!.welcome,
+              style: const TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.w700,
                 height: 1.0,
-                color: Color(0xFF222227),
+                color: Color.fromARGB(255, 0, 0, 0),
               ),
             ),
 
             const SizedBox(height: 15),
 
-            const Text(
-              'Lorem ipsum dolor sit amet consec Amet ut volutpat adipiscing',
+            Text(
+              AppLocalizations.of(context)!.pleaseSignInOrCreate,
               textAlign: TextAlign.center,
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.w400,
                 height: 1.0,
                 letterSpacing: 0,
+                color: Color.fromARGB(179, 0, 0, 0),
               ),
             ),
 
             const SizedBox(height: 30),
 
+            // Google Button
             SizedBox(
               width: 328,
               height: 50,
@@ -73,45 +73,43 @@ class _LoginMethodsScreenState extends State<LoginMethodsScreen> {
                 onPressed: () async {
                   await _authService.loginWithGoogle().then((userCredential) {
                     if (userCredential != null) {
-                      Navigator.push(
+                      Fluttertoast.showToast(
+                        msg: 'successfully signed in with Google',
+                        toastLength: Toast.LENGTH_SHORT,
+                        gravity: ToastGravity.BOTTOM,
+                        backgroundColor: Colors.green,
+                        textColor: Colors.white,
+                        fontSize: 16.0,
+                      );
+                      Navigator.pushReplacement(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => const SignUpScreen()),
+                            builder: (context) => const HomeScreen()),
                       );
                     } else {
                       ScaffoldMessenger.of(context).showSnackBar(
-                        const SnackBar(
-                          content: Text('Google sign-in failed.'),
-                        ),
+                        const SnackBar(content: Text('Google sign-in failed.')),
                       );
                     }
                   });
                 },
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color(0xFFD9D9D9),
-                  foregroundColor: Colors.black,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10),
+                    side: const BorderSide(color: Color(0xFF213555)),
                   ),
                 ),
                 child: Row(
                   children: [
                     const SizedBox(width: 20),
-                    const Icon(
-                      Icons.g_mobiledata_outlined, // Google icon
-                      size: 40,
-                      color: Colors.black,
-                    ),
-                    const Expanded(
-                      child: Center(
-                        child: Text(
-                          'Continue with Google',
-                          style: TextStyle(
-                            fontSize: 16,
-                            fontWeight: FontWeight.w300,
-                          ),
-                        ),
-                      ),
+                    Image(image: AssetImage('assets/google.png')),
+                    const SizedBox(width: 12),
+                    Text(
+                      AppLocalizations.of(context)!.signInWithGoogle,
+                      style: const TextStyle(
+                          fontSize: 12,
+                          fontWeight: FontWeight.w400,
+                          color: Colors.black),
                     ),
                   ],
                 ),
@@ -120,39 +118,39 @@ class _LoginMethodsScreenState extends State<LoginMethodsScreen> {
 
             const SizedBox(height: 14),
 
-            // Button 2: Continue with Facebook
+            // Facebook Button
             SizedBox(
               width: 328,
               height: 50,
               child: ElevatedButton(
                 onPressed: () {
-                  // Your button action
+                  // Facebook login action
+                  Fluttertoast.showToast(
+                    msg: 'successfully signed in with FaceBook',
+                    toastLength: Toast.LENGTH_SHORT,
+                    gravity: ToastGravity.BOTTOM,
+                    backgroundColor: Colors.green,
+                    textColor: Colors.white,
+                    fontSize: 16.0,
+                  );
                 },
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color(0xFFD9D9D9),
-                  foregroundColor: Colors.black,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10),
+                    side: const BorderSide(color: Color(0xFF213555)),
                   ),
                 ),
                 child: Row(
                   children: [
                     const SizedBox(width: 20),
-                    const Icon(
-                      Icons.facebook, // Facebook icon
-                      size: 40,
-                      color: Colors.blue,
-                    ),
-                    const Expanded(
-                      child: Center(
-                        child: Text(
-                          'Continue with Facebook',
-                          style: TextStyle(
-                            fontSize: 16,
-                            fontWeight: FontWeight.w300,
-                          ),
-                        ),
-                      ),
+                    Image(image: AssetImage('assets/facebook.png')),
+                    const SizedBox(width: 12),
+                    Text(
+                      AppLocalizations.of(context)!.signInWithFacebook,
+                      style: const TextStyle(
+                          fontSize: 14,
+                          fontWeight: FontWeight.w400,
+                          color: Colors.black),
                     ),
                   ],
                 ),
@@ -161,6 +159,7 @@ class _LoginMethodsScreenState extends State<LoginMethodsScreen> {
 
             const SizedBox(height: 14),
 
+            // Sign In button
             SizedBox(
               width: 328,
               height: 50,
@@ -173,51 +172,50 @@ class _LoginMethodsScreenState extends State<LoginMethodsScreen> {
                   );
                 },
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color(0xFFD9D9D9),
-                  foregroundColor: Colors.black,
+                  backgroundColor: const Color(0xFF213555),
+                  foregroundColor: Colors.white,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10),
+                    side: const BorderSide(color: Colors.white),
                   ),
                 ),
-                child: const Text(
-                  'Sign In',
+                child: Text(
+                  AppLocalizations.of(context)!.signIn,
                   textAlign: TextAlign.center,
-                  style: TextStyle(
-                    fontSize: 16,
-                    fontWeight: FontWeight.w300,
-                  ),
+                  style: const TextStyle(
+                      fontSize: 14, fontWeight: FontWeight.w400),
                 ),
               ),
             ),
+
             const SizedBox(height: 20),
 
-            // Don't have an account? Register now
+            // Register prompt
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const Text(
-                  "Do not have an account? ",
-                  style: TextStyle(
-                      fontSize: 14,
-                      fontWeight: FontWeight.w400,
-                      height: 1.0,
-                      color: Color.fromARGB(255, 151, 138, 138)),
+                Text(
+                  AppLocalizations.of(context)!.doNotHaveAccount,
+                  style: const TextStyle(
+                    fontSize: 10,
+                    fontWeight: FontWeight.w400,
+                    height: 1.0,
+                    color: Color.fromARGB(179, 21, 0, 0),
+                  ),
                 ),
                 GestureDetector(
                   onTap: () {
-                    // Navigate to Register Screen
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (context) =>
-                              const SignUpScreen()), // Fixed this line
+                          builder: (context) => const SignUpScreen()),
                     );
                   },
-                  child: const Text(
-                    "Register now",
-                    style: TextStyle(
+                  child: Text(
+                    AppLocalizations.of(context)!.registerNow,
+                    style: const TextStyle(
                       fontSize: 14,
-                      fontWeight: FontWeight.w400,
+                      fontWeight: FontWeight.w500,
                       color: Color.fromARGB(255, 0, 0, 0),
                       decoration: TextDecoration.underline,
                     ),
@@ -230,4 +228,20 @@ class _LoginMethodsScreenState extends State<LoginMethodsScreen> {
       ),
     );
   }
+}
+
+class _InlinePolygonClipper extends CustomClipper<Path> {
+  @override
+  Path getClip(Size size) {
+    final path = Path();
+    path.lineTo(0, size.height - 60);
+    path.quadraticBezierTo(
+        size.width / 2, size.height + 87, size.width, size.height - 60);
+    path.lineTo(size.width, 0);
+    path.close();
+    return path;
+  }
+
+  @override
+  bool shouldReclip(covariant CustomClipper<Path> oldClipper) => false;
 }

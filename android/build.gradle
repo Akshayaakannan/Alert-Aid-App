@@ -11,31 +11,7 @@ subprojects {
 }
 subprojects {
     project.evaluationDependsOn(":app")
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-}
-=======
 } 
->>>>>>> Knowledge-Panel
-=======
-} 
->>>>>>> News-Feed
-=======
-} 
->>>>>>> Ai-Chat-Bot
-=======
-} 
->>>>>>> Report-Incident-&-Real-Time-Alerts
-=======
-} 
->>>>>>> Helpline
-=======
-} 
->>>>>>> Profile-Settings
 
 tasks.register("clean", Delete) {
     delete rootProject.buildDir

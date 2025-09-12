@@ -15,60 +15,9 @@ migration:
     - platform: root
       create_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
       base_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    - platform: android
-      create_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
-      base_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
-    - platform: ios
-      create_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
-      base_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
-    - platform: linux
-      create_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
-      base_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
-    - platform: macos
-      create_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
-      base_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
     - platform: web
       create_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
       base_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
-    - platform: windows
-      create_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
-      base_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
-=======
-    - platform: web
-      create_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
-      base_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
->>>>>>> Knowledge-Panel
-=======
-    - platform: web
-      create_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
-      base_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
->>>>>>> News-Feed
-=======
-    - platform: web
-      create_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
-      base_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
->>>>>>> Ai-Chat-Bot
-=======
-    - platform: web
-      create_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
-      base_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
->>>>>>> Report-Incident-&-Real-Time-Alerts
-=======
-    - platform: web
-      create_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
-      base_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
->>>>>>> Helpline
-=======
-    - platform: web
-      create_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
-      base_revision: 68415ad1d920f6fe5ec284f5c2febf7c4dd5b0b3
->>>>>>> Profile-Settings
 
   # User provided section
 
