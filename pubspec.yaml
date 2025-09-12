@@ -34,11 +34,14 @@ dependencies:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   dialog_flowtter: 
   provider: ^6.0.5
   image_picker: ^0.8.7+4
@@ -55,15 +58,19 @@ dependencies:
   font_awesome_flutter: ^10.5.0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73,10 +80,13 @@ dependencies:
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   firebase_auth: ^5.5.1
   fluttertoast: ^8.2.12
   cloud_firestore: ^5.6.5
   google_sign_in: ^6.2.1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> Knowledge-Panel
@@ -84,6 +94,8 @@ dependencies:
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
 
 dev_dependencies:
   flutter_test:
@@ -91,6 +103,7 @@ dev_dependencies:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   
 >>>>>>> Knowledge-Panel
@@ -100,6 +113,9 @@ dev_dependencies:
 =======
   
 >>>>>>> Ai-Chat-Bot
+=======
+  
+>>>>>>> Report-Incident-&-Real-Time-Alerts
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -121,6 +137,7 @@ flutter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   generate: true
 >>>>>>> Knowledge-Panel
@@ -130,6 +147,9 @@ flutter:
 =======
   generate: true
 >>>>>>> Ai-Chat-Bot
+=======
+  generate: true
+>>>>>>> Report-Incident-&-Real-Time-Alerts
 
   # To add assets to your application, add an assets section, like this:
   assets:

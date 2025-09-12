@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 void fl_register_plugins(FlPluginRegistry* registry) {
 =======
@@ -16,6 +17,8 @@ void fl_register_plugins(FlPluginRegistry* registry) {
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
 #include <file_selector_linux/file_selector_plugin.h>
 #include <url_launcher_linux/url_launcher_plugin.h>
 
@@ -28,9 +31,12 @@ void fl_register_plugins(FlPluginRegistry* registry) {
   url_launcher_plugin_register_with_registrar(url_launcher_linux_registrar);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
 }

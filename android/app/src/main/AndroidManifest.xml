@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <application
         android:label="disaster_management"
         android:name="${applicationName}"
@@ -14,6 +15,8 @@
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
 
     <!-- Permissions -->
     <uses-permission android:name="android.permission.INTERNET" /> <!-- Required for HTTP calls -->
@@ -35,17 +38,21 @@
             android:enableOnBackInvokedCallback="true"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
             android:launchMode="singleTop"
             android:taskAffinity=""
             android:theme="@style/LaunchTheme"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true"
             android:windowSoftInputMode="adjustResize">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69,6 +76,8 @@
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
 
             <meta-data
                 android:name="io.flutter.embedding.android.NormalTheme"
@@ -84,15 +93,19 @@
         <!-- Flutter plugin reference -->
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
     </application>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -112,6 +125,8 @@
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
 
     <!-- Queries to support intent-based actions -->
     <queries>
@@ -140,9 +155,12 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
 </manifest>

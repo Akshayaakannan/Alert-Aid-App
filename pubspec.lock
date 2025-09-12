@@ -4,11 +4,14 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   _flutterfire_internals:
     dependency: transitive
     description:
@@ -27,11 +30,14 @@ packages:
     version: "2.7.0"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   async:
     dependency: transitive
     description:
@@ -67,11 +73,14 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   cloud_firestore:
     dependency: "direct main"
     description:
@@ -98,11 +107,14 @@ packages:
     version: "4.4.5"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   collection:
     dependency: transitive
     description:
@@ -114,11 +126,14 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   cross_file:
     dependency: transitive
     description:
@@ -137,11 +152,14 @@ packages:
     version: "3.0.6"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   cupertino_icons:
     dependency: "direct main"
     description:
@@ -153,11 +171,14 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   dialog_flowtter:
     dependency: "direct main"
     description:
@@ -176,11 +197,14 @@ packages:
     version: "2.0.7"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   fake_async:
     dependency: transitive
     description:
@@ -192,11 +216,14 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   file_selector_linux:
     dependency: transitive
     description:
@@ -255,11 +282,14 @@ packages:
     version: "5.14.1"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   firebase_core:
     dependency: "direct main"
     description:
@@ -287,11 +317,14 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   firebase_messaging:
     dependency: "direct main"
     description:
@@ -350,11 +383,14 @@ packages:
     version: "1.1.1"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   flutter:
     dependency: "direct main"
     description: flutter
@@ -371,11 +407,14 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   flutter_localizations:
     dependency: "direct main"
     description: flutter
@@ -399,11 +438,14 @@ packages:
     version: "2.0.28"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -425,11 +467,14 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   fluttertoast:
     dependency: "direct main"
     description:
@@ -648,11 +693,14 @@ packages:
     version: "4.9.0"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   leak_tracker:
     dependency: transitive
     description:
@@ -712,11 +760,14 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   mime:
     dependency: transitive
     description:
@@ -735,11 +786,14 @@ packages:
     version: "1.0.0"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   path:
     dependency: transitive
     description:
@@ -751,11 +805,14 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   permission_handler:
     dependency: "direct main"
     description:
@@ -806,11 +863,14 @@ packages:
     version: "0.2.1"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   plugin_platform_interface:
     dependency: transitive
     description:
@@ -822,11 +882,14 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   provider:
     dependency: "direct main"
     description:
@@ -837,11 +900,14 @@ packages:
     version: "6.1.5"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   sky_engine:
     dependency: transitive
     description: flutter
@@ -858,11 +924,14 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   sprintf:
     dependency: transitive
     description:
@@ -873,11 +942,14 @@ packages:
     version: "7.0.0"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   stack_trace:
     dependency: transitive
     description:
@@ -921,11 +993,14 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   typed_data:
     dependency: transitive
     description:
@@ -1008,11 +1083,14 @@ packages:
     version: "4.5.1"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   vector_math:
     dependency: transitive
     description:
@@ -1042,6 +1120,7 @@ sdks:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   flutter: ">=3.22.0"
 =======
   flutter: ">=3.27.0"
@@ -1052,3 +1131,6 @@ sdks:
 =======
   flutter: ">=3.27.0"
 >>>>>>> Ai-Chat-Bot
+=======
+  flutter: ">=3.27.0"
+>>>>>>> Report-Incident-&-Real-Time-Alerts

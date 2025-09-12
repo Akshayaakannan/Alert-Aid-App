@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #include <firebase_auth/firebase_auth_plugin_c_api.h>
 #include <firebase_core/firebase_core_plugin_c_api.h>
 =======
@@ -17,6 +18,8 @@
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
 #include <file_selector_windows/file_selector_windows.h>
 #include <firebase_auth/firebase_auth_plugin_c_api.h>
 #include <firebase_core/firebase_core_plugin_c_api.h>
@@ -26,11 +29,14 @@
 #include <url_launcher_windows/url_launcher_windows.h>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
 
 void RegisterPlugins(flutter::PluginRegistry* registry) {
   CloudFirestorePluginCApiRegisterWithRegistrar(
@@ -38,6 +44,7 @@ void RegisterPlugins(flutter::PluginRegistry* registry) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   FileSelectorWindowsRegisterWithRegistrar(
       registry->GetRegistrarForPlugin("FileSelectorWindows"));
@@ -50,10 +57,15 @@ void RegisterPlugins(flutter::PluginRegistry* registry) {
   FileSelectorWindowsRegisterWithRegistrar(
       registry->GetRegistrarForPlugin("FileSelectorWindows"));
 >>>>>>> Ai-Chat-Bot
+=======
+  FileSelectorWindowsRegisterWithRegistrar(
+      registry->GetRegistrarForPlugin("FileSelectorWindows"));
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   FirebaseAuthPluginCApiRegisterWithRegistrar(
       registry->GetRegistrarForPlugin("FirebaseAuthPluginCApi"));
   FirebaseCorePluginCApiRegisterWithRegistrar(
       registry->GetRegistrarForPlugin("FirebaseCorePluginCApi"));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62,6 +74,8 @@ void RegisterPlugins(flutter::PluginRegistry* registry) {
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
   FirebaseStoragePluginCApiRegisterWithRegistrar(
       registry->GetRegistrarForPlugin("FirebaseStoragePluginCApi"));
   GeolocatorWindowsRegisterWithRegistrar(
@@ -72,9 +86,12 @@ void RegisterPlugins(flutter::PluginRegistry* registry) {
       registry->GetRegistrarForPlugin("UrlLauncherWindows"));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
 =======
 >>>>>>> Ai-Chat-Bot
+=======
+>>>>>>> Report-Incident-&-Real-Time-Alerts
 }

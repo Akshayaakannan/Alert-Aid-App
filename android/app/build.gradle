@@ -30,6 +30,7 @@ android {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
 =======
@@ -44,6 +45,10 @@ android {
         minSdkVersion 23
         targetSdkVersion flutter.targetSdkVersion
 >>>>>>> Ai-Chat-Bot
+=======
+        minSdkVersion 23
+        targetSdkVersion flutter.targetSdkVersion
+>>>>>>> Report-Incident-&-Real-Time-Alerts
         versionCode = flutter.versionCode
         versionName = flutter.versionName
     }

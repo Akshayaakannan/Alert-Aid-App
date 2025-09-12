@@ -14,6 +14,7 @@ subprojects {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 } 
@@ -24,6 +25,9 @@ subprojects {
 =======
 } 
 >>>>>>> Ai-Chat-Bot
+=======
+} 
+>>>>>>> Report-Incident-&-Real-Time-Alerts
 
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
