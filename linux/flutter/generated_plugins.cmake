@@ -5,6 +5,7 @@
 list(APPEND FLUTTER_PLUGIN_LIST
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   file_selector_linux
   url_launcher_linux
@@ -13,6 +14,10 @@ list(APPEND FLUTTER_PLUGIN_LIST
   file_selector_linux
   url_launcher_linux
 >>>>>>> News-Feed
+=======
+  file_selector_linux
+  url_launcher_linux
+>>>>>>> Ai-Chat-Bot
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST

@@ -1,6 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <application
         android:label="disaster_management"
         android:name="${applicationName}"
@@ -11,6 +12,8 @@
 =======
 =======
 >>>>>>> News-Feed
+=======
+>>>>>>> Ai-Chat-Bot
 
     <!-- Permissions -->
     <uses-permission android:name="android.permission.INTERNET" /> <!-- Required for HTTP calls -->
@@ -31,15 +34,19 @@
             android:exported="true"
             android:enableOnBackInvokedCallback="true"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
+=======
+>>>>>>> Ai-Chat-Bot
             android:launchMode="singleTop"
             android:taskAffinity=""
             android:theme="@style/LaunchTheme"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true"
             android:windowSoftInputMode="adjustResize">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             <!-- Specifies an Android theme to apply to this Activity as soon as
@@ -60,6 +67,8 @@
 =======
 =======
 >>>>>>> News-Feed
+=======
+>>>>>>> Ai-Chat-Bot
 
             <meta-data
                 android:name="io.flutter.embedding.android.NormalTheme"
@@ -74,13 +83,17 @@
 
         <!-- Flutter plugin reference -->
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
+=======
+>>>>>>> Ai-Chat-Bot
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
     </application>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <!-- Required to query activities that can process text, see:
@@ -97,6 +110,8 @@
 =======
 =======
 >>>>>>> News-Feed
+=======
+>>>>>>> Ai-Chat-Bot
 
     <!-- Queries to support intent-based actions -->
     <queries>
@@ -124,7 +139,10 @@
     </queries>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
+=======
+>>>>>>> Ai-Chat-Bot
 </manifest>

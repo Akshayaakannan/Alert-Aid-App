@@ -8,6 +8,7 @@ import Foundation
 import cloud_firestore
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import firebase_auth
 import firebase_core
 import google_sign_in_ios
@@ -20,6 +21,8 @@ func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
 =======
 =======
 >>>>>>> News-Feed
+=======
+>>>>>>> Ai-Chat-Bot
 import file_selector_macos
 import firebase_auth
 import firebase_core
@@ -40,7 +43,10 @@ func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
   FLTGoogleSignInPlugin.register(with: registry.registrar(forPlugin: "FLTGoogleSignInPlugin"))
   UrlLauncherPlugin.register(with: registry.registrar(forPlugin: "UrlLauncherPlugin"))
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
+=======
+>>>>>>> Ai-Chat-Bot
 }
