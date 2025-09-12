@@ -15,6 +15,7 @@ subprojects {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 } 
@@ -28,6 +29,9 @@ subprojects {
 =======
 } 
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+} 
+>>>>>>> Helpline
 
 tasks.register("clean", Delete) {
     delete rootProject.buildDir

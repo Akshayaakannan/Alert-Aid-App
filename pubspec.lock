@@ -5,6 +5,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
@@ -12,6 +13,8 @@ packages:
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   _flutterfire_internals:
     dependency: transitive
     description:
@@ -31,6 +34,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -38,6 +42,8 @@ packages:
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   async:
     dependency: transitive
     description:
@@ -74,6 +80,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
@@ -81,6 +88,8 @@ packages:
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   cloud_firestore:
     dependency: "direct main"
     description:
@@ -108,6 +117,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -115,6 +125,8 @@ packages:
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   collection:
     dependency: transitive
     description:
@@ -127,6 +139,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
@@ -134,6 +147,8 @@ packages:
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   cross_file:
     dependency: transitive
     description:
@@ -153,6 +168,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -160,6 +176,8 @@ packages:
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   cupertino_icons:
     dependency: "direct main"
     description:
@@ -172,6 +190,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
@@ -179,6 +198,8 @@ packages:
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   dialog_flowtter:
     dependency: "direct main"
     description:
@@ -198,6 +219,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -205,6 +227,8 @@ packages:
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   fake_async:
     dependency: transitive
     description:
@@ -217,6 +241,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
@@ -224,6 +249,8 @@ packages:
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   file_selector_linux:
     dependency: transitive
     description:
@@ -283,6 +310,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -290,6 +318,8 @@ packages:
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   firebase_core:
     dependency: "direct main"
     description:
@@ -318,6 +348,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
@@ -325,6 +356,8 @@ packages:
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   firebase_messaging:
     dependency: "direct main"
     description:
@@ -384,6 +417,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -391,6 +425,8 @@ packages:
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   flutter:
     dependency: "direct main"
     description: flutter
@@ -408,6 +444,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
@@ -415,6 +452,8 @@ packages:
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   flutter_localizations:
     dependency: "direct main"
     description: flutter
@@ -439,6 +478,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -446,6 +486,8 @@ packages:
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -468,6 +510,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
@@ -475,6 +518,8 @@ packages:
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   fluttertoast:
     dependency: "direct main"
     description:
@@ -694,6 +739,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -701,6 +747,8 @@ packages:
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   leak_tracker:
     dependency: transitive
     description:
@@ -761,6 +809,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
@@ -768,6 +817,8 @@ packages:
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   mime:
     dependency: transitive
     description:
@@ -787,6 +838,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -794,6 +846,8 @@ packages:
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   path:
     dependency: transitive
     description:
@@ -806,6 +860,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
@@ -813,6 +868,8 @@ packages:
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   permission_handler:
     dependency: "direct main"
     description:
@@ -864,6 +921,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -871,6 +929,8 @@ packages:
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   plugin_platform_interface:
     dependency: transitive
     description:
@@ -883,6 +943,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
@@ -890,6 +951,8 @@ packages:
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   provider:
     dependency: "direct main"
     description:
@@ -901,6 +964,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -908,6 +972,8 @@ packages:
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   sky_engine:
     dependency: transitive
     description: flutter
@@ -925,6 +991,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
@@ -932,6 +999,8 @@ packages:
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   sprintf:
     dependency: transitive
     description:
@@ -943,6 +1012,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -950,6 +1020,8 @@ packages:
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   stack_trace:
     dependency: transitive
     description:
@@ -994,6 +1066,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> News-Feed
@@ -1001,6 +1074,8 @@ packages:
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   typed_data:
     dependency: transitive
     description:
@@ -1084,6 +1159,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -1091,6 +1167,8 @@ packages:
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   vector_math:
     dependency: transitive
     description:
@@ -1121,6 +1199,7 @@ sdks:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   flutter: ">=3.22.0"
 =======
   flutter: ">=3.27.0"
@@ -1134,3 +1213,6 @@ sdks:
 =======
   flutter: ">=3.27.0"
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+  flutter: ">=3.27.0"
+>>>>>>> Helpline

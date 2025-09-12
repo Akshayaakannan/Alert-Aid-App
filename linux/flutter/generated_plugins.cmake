@@ -7,6 +7,7 @@ list(APPEND FLUTTER_PLUGIN_LIST
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   file_selector_linux
   url_launcher_linux
@@ -23,6 +24,10 @@ list(APPEND FLUTTER_PLUGIN_LIST
   file_selector_linux
   url_launcher_linux
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+  file_selector_linux
+  url_launcher_linux
+>>>>>>> Helpline
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST

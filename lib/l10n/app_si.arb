@@ -1,0 +1,10 @@
+{
+  "selectLanguage": "භාෂාව තෝරන්න",
+  "welcome": "ආයුබෝවන්!",
+  "pleaseSignInOrCreate": "කරුණාකර ඔබගේ ගිණුමට පිවිසෙන්න හෝ නව ගිණුමක් තනන්න",
+  "signInWithGoogle": "Google ඔස්සේ පිවිසෙන්න",
+  "signInWithFacebook": "Facebook ඔස්සේ පිවිසෙන්න",
+  "doNotHaveAccount": "ඔබට ගිණුමක් නැද්ද?",
+  "registerNow": "දැන් ලියාපදිංචි වන්න",
+  "signIn": "පිවිසෙන්න"
+}

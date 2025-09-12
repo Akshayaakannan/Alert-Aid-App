@@ -8,6 +8,7 @@ list(APPEND FLUTTER_PLUGIN_LIST
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   firebase_auth
   firebase_core
 =======
@@ -17,6 +18,8 @@ list(APPEND FLUTTER_PLUGIN_LIST
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   file_selector_windows
   firebase_auth
   firebase_core
@@ -27,6 +30,7 @@ list(APPEND FLUTTER_PLUGIN_LIST
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -34,6 +38,8 @@ list(APPEND FLUTTER_PLUGIN_LIST
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST

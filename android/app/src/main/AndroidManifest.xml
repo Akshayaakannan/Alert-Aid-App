@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <application
         android:label="disaster_management"
         android:name="${applicationName}"
@@ -17,6 +18,8 @@
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
 
     <!-- Permissions -->
     <uses-permission android:name="android.permission.INTERNET" /> <!-- Required for HTTP calls -->
@@ -39,6 +42,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -46,12 +50,15 @@
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
             android:launchMode="singleTop"
             android:taskAffinity=""
             android:theme="@style/LaunchTheme"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true"
             android:windowSoftInputMode="adjustResize">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,6 +85,8 @@
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
 
             <meta-data
                 android:name="io.flutter.embedding.android.NormalTheme"
@@ -94,6 +103,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -101,10 +111,13 @@
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
     </application>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -127,6 +140,8 @@
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
 
     <!-- Queries to support intent-based actions -->
     <queries>
@@ -156,6 +171,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -163,4 +179,6 @@
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
 </manifest>

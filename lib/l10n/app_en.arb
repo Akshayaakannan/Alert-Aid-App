@@ -1,0 +1,9 @@
+{
+  "welcome": "welcome!",
+  "pleaseSignInOrCreate": "Please sign in to your account or\n create a new account",
+  "signInWithGoogle": "Sign in with Google",
+  "signInWithFacebook": "Sign in with Facebook",
+  "doNotHaveAccount": "Do not have an account?",
+  "registerNow": "Register now",
+  "signIn": "Sign In"
+}

@@ -31,6 +31,7 @@ android {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
 =======
@@ -49,6 +50,10 @@ android {
         minSdkVersion 23
         targetSdkVersion flutter.targetSdkVersion
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+        minSdkVersion 23
+        targetSdkVersion flutter.targetSdkVersion
+>>>>>>> Helpline
         versionCode = flutter.versionCode
         versionName = flutter.versionName
     }

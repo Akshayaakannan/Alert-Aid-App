@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #include <firebase_auth/firebase_auth_plugin_c_api.h>
 #include <firebase_core/firebase_core_plugin_c_api.h>
 =======
@@ -20,6 +21,8 @@
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
 #include <file_selector_windows/file_selector_windows.h>
 #include <firebase_auth/firebase_auth_plugin_c_api.h>
 #include <firebase_core/firebase_core_plugin_c_api.h>
@@ -30,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -37,6 +41,8 @@
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
 
 void RegisterPlugins(flutter::PluginRegistry* registry) {
   CloudFirestorePluginCApiRegisterWithRegistrar(
@@ -45,6 +51,7 @@ void RegisterPlugins(flutter::PluginRegistry* registry) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   FileSelectorWindowsRegisterWithRegistrar(
       registry->GetRegistrarForPlugin("FileSelectorWindows"));
@@ -61,10 +68,15 @@ void RegisterPlugins(flutter::PluginRegistry* registry) {
   FileSelectorWindowsRegisterWithRegistrar(
       registry->GetRegistrarForPlugin("FileSelectorWindows"));
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+  FileSelectorWindowsRegisterWithRegistrar(
+      registry->GetRegistrarForPlugin("FileSelectorWindows"));
+>>>>>>> Helpline
   FirebaseAuthPluginCApiRegisterWithRegistrar(
       registry->GetRegistrarForPlugin("FirebaseAuthPluginCApi"));
   FirebaseCorePluginCApiRegisterWithRegistrar(
       registry->GetRegistrarForPlugin("FirebaseCorePluginCApi"));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -76,6 +88,8 @@ void RegisterPlugins(flutter::PluginRegistry* registry) {
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
   FirebaseStoragePluginCApiRegisterWithRegistrar(
       registry->GetRegistrarForPlugin("FirebaseStoragePluginCApi"));
   GeolocatorWindowsRegisterWithRegistrar(
@@ -87,6 +101,7 @@ void RegisterPlugins(flutter::PluginRegistry* registry) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Knowledge-Panel
 =======
 >>>>>>> News-Feed
@@ -94,4 +109,6 @@ void RegisterPlugins(flutter::PluginRegistry* registry) {
 >>>>>>> Ai-Chat-Bot
 =======
 >>>>>>> Report-Incident-&-Real-Time-Alerts
+=======
+>>>>>>> Helpline
 }
